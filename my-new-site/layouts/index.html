@@ -1,0 +1,8 @@
+# Мой сайт
+
+Добро пожаловать на мой персональный сайт.
+
+## Последние посты
+{{ range first 5 .Site.RegularPages }}
+* [{{ .Title }}]({{ .RelPermalink }}) — {{ .Date.Format "2006-01-02" }}
+{{ end }}

@@ -1,0 +1,4 @@
+baseURL = "https://kmborisova.github.io/my-new-site/"
+languageCode = "ru-ru"
+title = "Сайт Ксении Борисовой"
+theme = "hello-friend"
